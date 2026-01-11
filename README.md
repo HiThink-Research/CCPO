@@ -28,7 +28,7 @@ The official implementation of the paper "Compress to Focus: Efficient Coordinat
 
 ### 📈 Method Overview
 ![Method Overview](assets\framework-12-28_1.png)
-*Figure 1: Overview of the CCPO framework.*
+*Overview of the CCPO framework.*
 
 ### ✨ Key Features
 - **Efficient Compression (CASC)**: Aggregates spatial coordinates to achieve up to **60% token reduction** without losing critical context.
@@ -64,7 +64,7 @@ conda activate ccpo
 # Install dependencies
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
-# -->
+```
 
 ## 📂 Data Preparation
 
