@@ -17,7 +17,7 @@
 
 ## 🔥 News
 - **[2026-01-12]** 🚀 Code and pre-trained models are released!
-- **[2026-01-XX]** 📄 Our paper "[Paper Title]" is now available on [arXiv](https://arxiv.org/abs/2601.xxxxx).
+- **[2026-01-XX]** 📄 Our paper "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents" is now available on [arXiv](https://arxiv.org/abs/2601.xxxxx).
 
 
 ## 🚀 Introduction
