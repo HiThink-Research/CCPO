@@ -26,14 +26,16 @@ The official implementation of the paper "Compress to Focus: Efficient Coordinat
 
 > **Abstract:** *Multi-turn GUI agents enable complex task completion through sequential decision-making, but suffer from severe context inflation as interaction history accumulates. Existing strategies either sacrifice long-term context via truncation or compromise spatial structure through token pruning. In this paper, we propose Coordinate Compression Policy Optimization (CCPO), an efficient policy optimization framework that couples visual compression with policy optimization for multi-turn GUI agents. CCPO introduces Coordinate-Aware Spatial Compression (CASC), which aggregates coordinates from multiple rollouts to capture target-relevant regions and progressively narrow historical attention around key visual areas. From interactions across rollouts, CASC adaptively constructs attention boundaries that concentrate computation on the most informative regions of the scene. We further design a Distance-Based Advantage that provides fine-grained learning signals based on distance rather than binary correctness, improving both grounding accuracy and compression quality. Extensive experiments demonstrate that CCPO achieves SOTA performance across four benchmarks with up to 55% token compression and 3.8$\times$ training speedup.*
 
-<!-- 这里放一张方法流程图，这是顶会项目的标配 -->
+### 📈 Method Overview
 ![Method Overview](assets\framework-12-28_1.png)
 *Figure 1: Overview of the CCPO framework.*
 
 ### ✨ Key Features
-- **SOTA Performance**: Achieves state-of-the-art results on [Benchmark Name].
-- **Efficiency**: 2x faster training compared to [Baseline Method].
-- **Easy-to-use**: Simple API and comprehensive documentation.
+- **Efficient Compression (CASC)**: Aggregates spatial coordinates to achieve up to **60% token reduction** without losing critical context.
+- **Distance-Based Advantage**: Provides fine-grained learning signals based on spatial distance, significantly boosting grounding accuracy.
+- **Training Acceleration**: Delivers **3.5x–4.8x speedup** and 16% lower TFLOPS compared to standard RL baselines.
+- **SOTA Performance**: Top-tier results across 4 major benchmarks: **Android Control, GUI Odyssey, Mind2Web, and AITW**.
+- **Coupled Optimization**: A unified framework that co-optimizes visual focusing and policy decision-making.
 
 
 
@@ -52,19 +54,17 @@ The official implementation of the paper "Compress to Focus: Efficient Coordinat
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/username/CCPO.git
+git clone https://github.com/HiThink-Research/CCPO.git
 cd CCPO
 
 # Create a conda environment
-conda create -n ccpo python=3.9
+conda create -n ccpo python=3.12
 conda activate ccpo
 
 # Install dependencies
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
-```
-
-
+# -->
 
 ## 📂 Data Preparation
 
