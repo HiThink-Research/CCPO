@@ -92,19 +92,23 @@ data/
 ---
 
 ## 🏃 Usage
+### 1. SFT Training
+We first perform Supervised Fine-Tuning (SFT) on **Qwen2.5-VL** as the warm-up stage.
 
-### 1. Training
-To train the CCPO model with 8 GPUs:
+### 2. CCPO Training
+Then we train the CCPO model with the following command:
 
 ```bash
-bash scripts/train_ccpo.sh
+cd CCPO
+bash scripts/train_CCPO_aitw_7B.sh
 ```
 
 ### 2. Evaluation
 To evaluate the pre-trained model:
 
 ```bash
-python evaluation_gui_o_sequence_new_version.py \
+cd ../evaluation
+python evaluation_aitw.py \
     --save_path path/to/save/results \
     --model_path path/to/model \
     --his_num 4
@@ -118,9 +122,6 @@ We provide pre-trained models (3B and 7B) for reproduction.
 
 | Dataset | CCPO-3B | CCPO-7B |
 | :--- | :---: | :---: |
-| **Android Control** | [Download](#) | [Download](#) |
-| **GUI Odyssey** | [Download](#) | [Download](#) |
-| **Mind2Web** | [Download](#) | [Download](#) |
 | **AITW** | [Download](#) | [Download](#) |
 
 ---
