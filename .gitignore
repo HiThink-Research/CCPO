@@ -175,5 +175,6 @@ fabric.properties
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
+*/__pycache__/*
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,jupyternotebooks,macos,linux
