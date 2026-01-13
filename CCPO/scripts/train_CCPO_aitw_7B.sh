@@ -130,7 +130,7 @@ if [ "$RANK" == "0" ]; then
         data.max_response_length=125 \
         data.truncation='left' \
         data.num_image_limit=${IMAGE} \
-        actor_rollout_ref.model.path=/cpfs01/HithinkOmniSSD/user_workspace/AITW_SFT/${CHECKPOINT}/merge/checkpoint-${CHECKPOINT_STEP} \
+        actor_rollout_ref.model.path=/path/to/model/AITW_SFT/${CHECKPOINT}/merge/checkpoint-${CHECKPOINT_STEP} \
         actor_rollout_ref.actor.optim.lr=${LR} \
         actor_rollout_ref.actor.use_torch_compile=False \
         actor_rollout_ref.model.use_remove_padding=True \
@@ -169,7 +169,7 @@ if [ "$RANK" == "0" ]; then
         algorithm.filter_groups.max_num_gen_batches=0 \
         trainer.critic_warmup=0 \
         trainer.logger=['console','wandb'] \
-        trainer.default_local_dir=/cpfs01/HithinkOmniSSD/user_workspacecheckpoint/gui_traj_grpo/${EXPERIMENT_NAME} \
+        trainer.default_local_dir=/path/to/gui_traj_grpo/${EXPERIMENT_NAME} \
         trainer.project_name='gui_traj_grpo' \
         trainer.experiment_name=$EXPERIMENT_NAME \
         trainer.n_gpus_per_node=4 \
