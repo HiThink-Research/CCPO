@@ -1,7 +1,7 @@
 # Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents
 
 <!-- 徽章区域：显得专业且信息丰富 -->
-[![Project Page](https://img.shields.io/badge/Project-Page-Green.svg)](https://compress2focus.github.io/)
+[![Project Page](https://img.shields.io/badge/Project-Page-Green.svg)](https://HiThink-Research.github.io/CCPO/)
 [![arXiv](https://img.shields.io/badge/arXiv-2601.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2601.xxxxx)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-3120/)
