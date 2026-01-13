@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![Pytorch 2.7+](https://img.shields.io/badge/pytorch-2.7+-green.svg)](https://pytorch.org/)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-goldenrod)](https://huggingface.co/HiThink-Research)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-goldenrod)](https://huggingface.co/HiThink-Research/CCPO-7B-3AO-AITW/tree/main)
 
 <!-- **[Your Name]**, **[Co-author Name]**, ... -->
 **Yurun Song\*, Jiong Yin\*, Rongjunchen Zhang, Ian Harris**
@@ -68,18 +68,7 @@ pip install -r requirements.txt
 
 ## 📂 Data Preparation
 
-We evaluate CCPO on four major benchmarks: **Android Control**, **GUI Odyssey**, **Mind2Web**, and **AITW**.
-
-Please download the datasets from their official websites and run the provided scripts to convert them into the required format.
-
-| Dataset | Download Link | Preprocessing Script |
-| :--- | :---: | :--- |
-| **Android Control** | [Link]([INSERT_URL_HERE]) | `python [INSERT_SCRIPT_PATH_HERE] ...` |
-| **GUI Odyssey** | [Link]([INSERT_URL_HERE]) | `python [INSERT_SCRIPT_PATH_HERE] ...` |
-| **Mind2Web** | [Link]([INSERT_URL_HERE]) | `python [INSERT_SCRIPT_PATH_HERE] ...` |
-| **AITW** | [Link]([INSERT_URL_HERE]) | `python [INSERT_SCRIPT_PATH_HERE] ...` |
-
-After preprocessing, please organize the data as follows:
+We evaluate CCPO on four major benchmarks: **Android Control**, **GUI Odyssey**, **Mind2Web**, and **AITW**, please organize the data as follows:
 
 ```
 data/
@@ -122,7 +111,7 @@ We provide pre-trained models (3B and 7B) for reproduction.
 
 | Dataset | CCPO-3B | CCPO-7B |
 | :--- | :---: | :---: |
-| **AITW** | [Download](#) | [Download](#) |
+| **AITW** | [Download](https://huggingface.co/HiThink-Research/CCPO-3B-3AO-AITW) | [Download](https://huggingface.co/HiThink-Research/CCPO-7B-3AO-AITW/tree/main) |
 
 ---
 
