@@ -27,7 +27,7 @@ The official implementation of the paper "Compress to Focus: Efficient Coordinat
 > **Abstract:** *Multi-turn GUI agents enable complex task completion through sequential decision-making, but suffer from severe context inflation as interaction history accumulates. Existing strategies either sacrifice long-term context via truncation or compromise spatial structure through token pruning. In this paper, we propose Coordinate Compression Policy Optimization (CCPO), an efficient policy optimization framework that couples visual compression with policy optimization for multi-turn GUI agents. CCPO introduces Coordinate-Aware Spatial Compression (CASC), which aggregates coordinates from multiple rollouts to capture target-relevant regions and progressively narrow historical attention around key visual areas. From interactions across rollouts, CASC adaptively constructs attention boundaries that concentrate computation on the most informative regions of the scene. We further design a Distance-Based Advantage that provides fine-grained learning signals based on distance rather than binary correctness, improving both grounding accuracy and compression quality. Extensive experiments demonstrate that CCPO achieves SOTA performance across four benchmarks with up to 55% token compression and 3.8$\times$ training speedup.*
 
 ### 📈 Method Overview
-![Method Overview](assets\framework.png)
+![Method Overview](assets/framework.png)
 *Overview of the CCPO framework.*
 
 ### ✨ Key Features
