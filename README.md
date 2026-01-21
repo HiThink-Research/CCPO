@@ -17,7 +17,7 @@
 
 ## 🔥 News
 - **[2026-01-12]** 🚀 Code and pre-trained models are released!
-- **[2026-01-XX]** 📄 Our paper "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents" is now available on [arXiv](https://arxiv.org/abs/2601.xxxxx).
+- **[2026-01-XX]** 📄 Our paper "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents" is now available on [arXiv](https://arxiv.org/pdf/2601.11631).
 
 
 ## 🚀 Introduction
@@ -120,11 +120,14 @@ We provide pre-trained models (3B and 7B) for reproduction.
 If you find our work useful for your research, please consider citing:
 
 ```bibtex
-@inproceedings{author2026ccpo,
-  title={xxxx},
-  author={xxxx},
-  booktitle={xxxx},
-  year={2026}
+@misc{song2026compressfocusefficientcoordinate,
+      title={Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents}, 
+      author={Yurun Song and Jiong Yin and Rongjunchen Zhang and Ian G. Harris},
+      year={2026},
+      eprint={2601.11631},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.11631}, 
 }
 ```
 
