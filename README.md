@@ -16,8 +16,9 @@
 
 
 ## 🔥 News
+- **[2026-08-07]** Our paper has been accepted to ACM MM 2026 Main Track, see you in Brazil!
 - **[2026-01-12]** 🚀 Code and pre-trained models are released!
-- **[2026-01-XX]** 📄 Our paper "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents" is now available on [arXiv](https://arxiv.org/pdf/2601.11631).
+- **[2026-01-14]** 📄 Our paper "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents" is now available on [arXiv](https://arxiv.org/pdf/2601.11631).
 
 
 ## 🚀 Introduction
